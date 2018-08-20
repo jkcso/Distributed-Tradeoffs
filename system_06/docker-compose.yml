@@ -1,0 +1,94 @@
+
+# distributed algorithms, n.dulay, 19 jan 18
+# docker-compose.yml v1 for lab02 peer-server, 5 peers
+
+version: "3.4"
+
+x-common:
+  &defaults
+    image: elixir:alpine
+    volumes:
+      - .:/project
+    working_dir: /project
+    networks:
+      - network
+
+networks:
+  network:
+    driver: bridge
+
+services:
+  system.localdomain:
+    container_name: system6
+    command: >
+      elixir --name system06@system06.localdomain --cookie pass
+             -S mix run --no-halt -e ${MAIN} ${PEERS}
+    <<: *defaults
+
+  peer0.localdomain:
+    container_name: peer0
+    command: >
+      elixir --name peer0@peer0.localdomain --cookie pass
+             -S mix run --no-halt
+    <<: *defaults
+
+  peer1.localdomain:
+    container_name: peer1
+    command: >
+      elixir --name peer1@peer1.localdomain --cookie pass
+             -S mix run --no-halt
+    <<: *defaults
+
+  peer2.localdomain:
+    container_name: peer2
+    command: >
+      elixir --name peer2@peer2.localdomain --cookie pass
+             -S mix run --no-halt
+    <<: *defaults
+
+  peer3.localdomain:
+    container_name: peer3
+    command: >
+      elixir --name peer3@peer3.localdomain --cookie pass
+             -S mix run --no-halt
+    <<: *defaults
+
+  peer4.localdomain:
+    container_name: peer4
+    command: >
+      elixir --name peer4@peer4.localdomain --cookie pass
+             -S mix run --no-halt
+    <<: *defaults
+
+  app.localdomain:
+    container_name: app
+    command: >
+      elixir --name app@app.localdomain --cookie pass
+             -S mix run --no-halt
+    <<: *defaults
+
+  lpl.localdomain:
+    container_name: lpl
+    command: >
+      elixir --name lpl@lpl.localdomain --cookie pass
+             -S mix run --no-halt
+    <<: *defaults
+
+  beb.localdomain:
+    container_name: beb
+    command: >
+      elixir --name beb@beb.localdomain --cookie pass
+             -S mix run --no-halt
+    <<: *defaults
+
+  erb.localdomain:
+    container_name: erb
+    command: >
+      elixir --name erb@erb.localdomain --cookie pass
+             -S mix run --no-halt
+    <<: *defaults
+
+# MISC
+# - anchors only available in version 3.5, ditto x- services
+# - macvlan network driver also works
+# - tabs are a no-no, use spaces
