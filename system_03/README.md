@@ -1,6 +1,7 @@
 # System03
 
-**TODO: Add description**
+## RB (Eager Reliable Broadcast)
+Every process re-broadcasts every message it delivers.  If the broadcasting process crashes, the message will be forwarded by other processes using best-effort-broadcast.
 
 ## Installation
 
