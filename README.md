@@ -41,5 +41,4 @@ Validity, No Duplication and No Creation properties are the same as best effort 
 (URB) Deliver message only after the message has been beb-delivered by a majority (quorum) of processes.  The majority contains at least one correct process.  Fail-silent algorithm where process crashes are not reliably detected.
 
 ## Note
-In this repo there exists a subset of my work, often intentionally broken or misleading to avoid disrespectful people from copying and
-pasting.
+Part of my work is intentionally broken or misleading to avoid disrespectful people from copying and pasting.
