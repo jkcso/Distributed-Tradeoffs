@@ -1,4 +1,4 @@
-defmodule System07Lazy do
+defmodule System07 do
 
 def main do
   create(5, 50)
