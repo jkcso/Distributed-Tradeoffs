@@ -1,6 +1,7 @@
 # System05
 
-**TODO: Add description**
+## PFD (Perfect failure detector)
+Provides processes with a list of suspected processes (detected processes) that have crashed.  Makes timing assumptions (assumes systems are not asynchronous).  Never changes its view – suspected processes remain suspected forever.  Uses PL to exchange heartbeat messages plus a timeout mechanism (Recall PL performs reliable sending for correct processes).  Delay for timeout needs to be large enough for sending to all processes, processing at receiving processes and all replies back.  After a timeout, any process from which a reply has not been received is considered crashed, even it is alive and the reply message arrived after the timeout.
 
 ## Installation
 
