@@ -26,3 +26,7 @@ end
 Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
 and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
 be found at [https://hexdocs.pm/system_06](https://hexdocs.pm/system_06).
+
+## Note
+In this repo there exists a subset of my work, often intentionally broken or misleading to avoid disrespectful people from copying and
+pasting.
