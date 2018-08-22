@@ -1,4 +1,3 @@
-
 PEERS    = 5
 MAIN     = System06.main
 MAIN_NET = System06.main_net
