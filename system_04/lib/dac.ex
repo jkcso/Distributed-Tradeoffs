@@ -1,7 +1,3 @@
-# Joseph KATSIOLOUDES (jk2714) and Ben Sheng TAN (bst15)
-
-# some helper functions
-
 defmodule DAC do
 
 def lookup name do
