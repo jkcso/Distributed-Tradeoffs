@@ -1,6 +1,7 @@
 # System06
 
-**TODO: Add description**
+## URB (Uniform Reliable Broadcast)
+Validity, No Duplication and No Creation properties are the same as best effort broadcast and regular reliable broadcast.  If a process delivers message M then every correct process will also deliver M.  Implies a set of messages delivered by a faulty process is always a subset of messages delivered by a correct process (stronger guarantee).
 
 ## Installation
 
