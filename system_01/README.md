@@ -1,6 +1,6 @@
 # System01
 
-### BEB (Best Effort Broadcast)
+## BEB (Best Effort Broadcast)
 Given a list of all processes and a message, a process could send the message to all processes (including itself) with multiple sends, something like:
 
 `for p <- processes, do: send p, message`
