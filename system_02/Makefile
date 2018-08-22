@@ -1,7 +1,3 @@
-
-# distributed algorithms, n.dulay, 18 jan 18
-# Makefile, v1
-
 PEERS    = 5
 MAIN     = System02.main
 MAIN_NET = System02.main_net
