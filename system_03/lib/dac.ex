@@ -1,8 +1,3 @@
-# Joseph KATSIOLOUDES (jk2714) and Ben Sheng TAN (bst15)
-
-# distributed algorithms, n.dulay, 22 jan 18
-# some helper functions
-
 defmodule DAC do
 
 def lookup name do
