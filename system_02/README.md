@@ -1,6 +1,6 @@
 # System02
 
-### RB (Reliable Broadcast)
+## RB (Reliable Broadcast)
 For best-effort broadcast, if the sending process crashes during broadcast, then some arbitrary subset of processes will receive the message.  There is no delivery guarantee – processes do not agree on the delivery of the message.  With (regular) reliable broadcast all *correct* processes will agree on the messages they deliver, even if the broadcasting process crashes while sending.  If the broadcasting process crashes before any message is sent, then no message is delivered.
 
 ## Installation
