@@ -1,4 +1,4 @@
-# System07Lazy
+# System07
 
 ## URB (Majority-Ack Uniform Reliable Broadcast)
 (URB) Deliver message only after the message has been beb-delivered by a majority (quorum) of processes.  The majority contains at least one correct process.  Fail-silent algorithm where process crashes are not reliably detected.
