@@ -1,6 +1,7 @@
 # System04
 
-**TODO: Add description**
+## RB (Lazy Reliable broadcast)
+Uses best-effort-broadcast, but includes a failure detector component to detect processes that have failed (stopped).  Agreement is derived from (i) the validity property of BEB, (ii) that every correct process forwards every message it delivers when it detects a crashed process and (iii) the properties of PFD. Other properties are as for the Eager RB algorithm.
 
 ## Installation
 
