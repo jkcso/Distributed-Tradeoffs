@@ -1,7 +1,3 @@
-
-# distributed algorithms, n.dulay, 19 jan 18
-# docker-compose.yml v1 for lab02 peer-server, 5 peers
-
 version: "3.4"
 
 x-common:
