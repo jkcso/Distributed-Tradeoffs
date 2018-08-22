@@ -1,5 +1,3 @@
-# Joseph KATSIOLOUDES (jk2714) and Ben Sheng TAN (bst15)
-
 # DISTRIBUTED RUN
 # import DAC
 
