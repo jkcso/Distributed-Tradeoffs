@@ -1,6 +1,11 @@
 # System01
 
-**TODO: Add description**
+### BEB (Best Effort Broadcast)
+Given a list of all processes and a message, a process could send the message to all processes (including itself) with multiple sends, something like:
+
+`for p <- processes, do: send p, message`
+
+Sender does not know which processes received the message.  We'll assume (i) messages are unique (e.g. include process-id+seq-no), (ii) no process broadcasts a message twice, (ii) no two processes ever broadcast the same message.
 
 ## Installation
 
