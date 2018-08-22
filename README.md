@@ -1,8 +1,10 @@
 # Distributed Algorithms' Tradeoffs 
 
-## Inspired from Christian Cachin's book *"Introduction to Reliable and Secure Programming"*.
+## Inspired from Christian Cachin's book *"Introduction to Reliable and Secure Programming"*
 
-A practical evaluation of the iconic distributed algorithms demonstrated and discussed in Christian Cachin's book "Introduction to Reliable and Secure Distributed Programming".  Each system demonstrated in this repository incrementally adds further functionality to the base system demonstrated in System 01.  Final goal is to achieve a reliable broadcast in asynchronous message-passing distributed system that is subject to process failures.  This implies guarantees that messages are consistently delivered to all processes along with an agreement on the delivered messages.
+## It's all about the learning journey
+
+This repo's final goal was to achieve a reliable broadcast in asynchronous message-passing distributed system that is subject to process failures.  This implies guarantees that messages are consistently delivered to all processes along with an agreement on the delivered messages.  However, I found more helpful the journey for knowledge towards achieving the aforementioned goal stemming from my interaction with different components and involved algorithms because it made me feel the tradeoffs in performance, message delivery and system correctness.
 
 Specific information regarding individual system runs can be found inside each system's dedicated folder.  An outline of what each system explores follows:
 
